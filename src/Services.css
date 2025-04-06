@@ -1,0 +1,41 @@
+.services-page, .contact-page {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; /* Use an aesthetic font */
+  }
+  
+  .services-page h1, .contact-page h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+  }
+  
+  .services-page p, .contact-page p {
+    font-size: 1.5rem;
+    line-height: 2;
+    margin: 1rem auto;
+    max-width: 800px;
+  }
+  
+  .back-button {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: grey;
+    color: white;
+  }
+  
